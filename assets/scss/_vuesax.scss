@@ -1,0 +1,25 @@
+.vs-table-content {
+  @apply shadow-md;
+}
+
+.vs-table__thead .vs-table__th:first-child,
+.vs-table__thead .vs-table__th:last-child {
+  border-radius: 0px 6px 0px 0px !important;
+}
+
+.vs-table__thead .vs-table__th {
+  @apply uppercase;
+}
+
+.vs-checkbox-con {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.vs-table__td {
+  padding: 15px 12px !important;
+}
+
+.vs-table__tbody .vs-table__tr:not(:last-child) {
+  border-bottom: 1px solid #e0dee8ff;
+}

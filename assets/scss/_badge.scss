@@ -1,0 +1,21 @@
+.badge {
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 14px;
+  font-size: 12px;
+  line-height: 20px;
+  &.success {
+    color: #21a02eff;
+    background: #f0fcf2ff;
+  }
+
+  &.warning {
+    color: #c18100ff;
+    background: #fff9edff;
+  }
+
+  &.danger {
+    color: #ea5959ff;
+    background: #fdf1f1ff;
+  }
+}
